@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*font-family: Roboto*/
+  background: gray;
+  color: white;
+  line-height: 1.6px;
+  height: 100vh;
+  overflow: hidden;
+}
