@@ -60,56 +60,170 @@
     </a>
   <!-- home -->
 
-  <a class="scroll-item" id='work'>
-    <h1>Work</h1>
-  </a>
+  <div class="scroll-item" id='work'>
+    <!-- carousel -->
+    <div class="carousel-wrapper">
+      <div class="carousel" id="effect2">
+        <div class="carousel__nav">
+         <span id="moveLeft" class="carousel__arrow">
+              <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+          <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+      </svg>
+          </span>
+          <span id="moveRight" class="carousel__arrow" >
+            <svg class="carousel__icon"  width="24" height="24" viewBox="0 0 24 24">
+        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+      </svg>
+          </span>
+        </div>
+        <div class="carousel-item carousel-item--1">
+          <div class="carousel-item__image"></div>
+          <div class="carousel-item__info">
+            <div class="carousel-item__container">
+            <h2 class="carousel-item__subtitle">The grand moment </h2>
+            <h1 class="carousel-item__title">Le tour</h1>
+            <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <a href="#" class="carousel-item__btn">Explore the tour</a>
+              </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-item--2">
+          <div class="carousel-item__image"></div>
+          <div class="carousel-item__info">
+            <div class="carousel-item__container">
+            <h2 class="carousel-item__subtitle">The big window </h2>
+            <h1 class="carousel-item__title">Minimal window</h1>
+            <p class="carousel-item__description">Clear Glass Window With Brown and White Wooden Frame iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            <a href="#" class="carousel-item__btn">Read the article</a>
+              </div>
+          </div>
+        </div>
+          <div class="carousel-item carousel-item--3">
+          <div class="carousel-item__image"></div>
+          <div class="carousel-item__info">
+            <div class="carousel-item__container">
+            <h2 class="carousel-item__subtitle">Tropical palms </h2>
+            <h1 class="carousel-item__title">Palms</h1>
+            <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <a href="#" class="carousel-item__btn">Explore the palms</a>
+              </div>
+          </div>
+        </div>
 
+         <div class="carousel-item carousel-item--4">
+          <div class="carousel-item__image"></div>
+          <div class="carousel-item__info">
+            <div class="carousel-item__container">
+            <h2 class="carousel-item__subtitle">Beach </h2>
+            <h1 class="carousel-item__title">The beach </h1>
+            <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <a href="#" class="carousel-item__btn">Explore the beach</a>
+              </div>
+          </div>
+        </div>
+
+       <div class="carousel-item carousel-item--5">
+          <div class="carousel-item__image"></div>
+          <div class="carousel-item__info">
+            <div class="carousel-item__container">
+            <h2 class="carousel-item__subtitle">The white building </h2>
+            <h1 class="carousel-item__title">White building</h1>
+            <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <a href="#" class="carousel-item__btn">Read the article</a>
+              </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+    <!-- carousel -->
+  </div>
 <!--   <a class="scroll-item" id='skills'>
     <h1>Skills</h1>
   </a>
-
   <a class="scroll-item" id='about'>
     <h1>About</h1>
   </a> -->
-
   <a class="scroll-item" id='contact'>
     <h1>Contact</h1>
   </a>
 <!-- sections end -->
-
 </div>
 
 
+<!-- JS -->
+  <div class="hidden-code">
+    <!-- JS for smooth scrolling start -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script type="text/javascript">
+      // Select all links with hashes
+      $('a[href*="#"]')
+        // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function(event) {
+          // On-page links
+          if (
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+            &&
+            location.hostname == this.hostname
+            ) {
+            // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            // Does a scroll target exist?
+            if (target.length) {
+              // Only prevent default if animation is actually gonna happen
+              event.preventDefault();
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 800 );
+            }
+          }
+        });
+      </script>
+    <!-- JS for smooth scrolling end -->
 
-<div class="hidden-code">
 
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script type="text/javascript">
-// Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-      &&
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 800 );
-      }
-    }
-  });
-        </script>
+    <!-- JS for carousel start -->
+      <script>
+        $(function(){
+          $('.carousel-item').eq(0).addClass('active');
+          var total = $('.carousel-item').length;
+          var current = 0;
+          $('#moveRight').on('click', function(){
+            var next=current;
+            current= current+1;
+            setSlide(next, current);
+          });
+          $('#moveLeft').on('click', function(){
+            var prev=current;
+            current = current- 1;
+            setSlide(prev, current);
+          });
+          function setSlide(prev, next){
+            var slide= current;
+            if(next>total-1){
+             slide=0;
+             current=0;
+           }
+           if(next<0){
+            slide=total - 1;
+            current=total - 1;
+          }
+          $('.carousel-item').eq(prev).removeClass('active');
+          $('.carousel-item').eq(slide).addClass('active');
+          setTimeout(function(){
 
-    </div>
+          },800);
+
+          console.log('current '+current);
+          console.log('prev '+prev);
+        }
+      });
+      </script>
+    <!-- JS for carousel end -->
+
+  </div>

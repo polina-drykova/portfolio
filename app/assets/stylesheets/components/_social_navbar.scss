@@ -12,6 +12,7 @@
   transform: translateY(-50%);
   z-index: 10;
 }
+
 .social ul li {
   position: relative;
   display: inline-flex;
@@ -25,6 +26,7 @@
   overflow: hidden;
 /*   z-index: 1; */
 }
+
 .social ul li i.fa {
   font-size: 1.3rem;
   width: 36px;
@@ -34,17 +36,20 @@
   top: 0.04em;
   color: white;
   z-index: 1;
-
 }
+
 .social ul li i.fa.fa-github {
   font-size: 1.3em;
 }
+
 .social ul li i.fa.fa-paper-plane {
   font-size: 1.2em;
 }
+
 .social ul li i.fa.fa-info {
   font-size: 1.45em;
 }
+
 .social ul li span {
   font-size: 13px;
   font-family: $body-font;
@@ -56,30 +61,38 @@
   visibility: hidden;
   padding: 0 0 0 0;
 }
+
 .social ul li:hover {
   background: rgba(0, 0, 0, 0.6);
    transition: all 0.18s ease-out;
 }
+
 .social ul li:hover span {
   visibility: visible;
   opacity: 1;
   transition-delay: 90ms;
 }
+
 .social ul li:hover i {
   opacity: 1;
 }
+
 .social ul li:hover i.fa-github {
   color: #ea4c89;
 }
+
 .social ul li:hover i.fa-linkedin {
   color: #80A38C;
 }
+
 .social ul li:hover i.fa-google-plus {
   color: #fedd31;
 }
+
 .social ul li:hover i.fa-info {
   color: #80A38C;
 }
+
 .social ul li:hover i.fa-paper-plane {
   color: #fedd31;
 }
@@ -88,14 +101,17 @@
   align-items: flex-end;
   right: 0;
 }
+
 .social ul.wall li {
   width: 40px;
   border-radius: 22px 0 0 22px;
 }
+
 .social ul.wall li:hover {
   width: 110px;
-   transition: all 0.18s ease-out;
+  transition: all 0.18s ease-out;
 }
+
 .wall a {
   text-decoration: none;
   text-transform: uppercase;

@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 // @import "components/fonts";
 @import "components/social_navbar";
+@import "components/project_card";
 
 .container {
   width: 100%;
@@ -17,7 +18,7 @@
 .navbar {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 3;
   display: flex;
   width: 100%;
   height: 60px;
@@ -42,7 +43,6 @@
   }
   // padding: 1rem;
 }
-
 
 // scrolling items
 .scroll-item {
