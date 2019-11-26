@@ -13,10 +13,25 @@
  *= require_tree .
  *= require_self
  */
+ // Graphical variables
+@import "components/fonts";
 
 * {
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-family: "Lato", "Helvetica", "sans-serif";
+}
+
+#top a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+    &:hover {
+      color: pink;
+    }
 }
 
 body {
@@ -25,5 +40,11 @@ body {
   color: white;
   line-height: 1.6px;
   height: 100vh;
-  // overflow: hidden;
+  overflow: auto;
+  // scroll-snap-align: center !important;
+}
+
+// hide scrollbar:
+::-webkit-scrollbar {
+    width: 0.1px;
 }
