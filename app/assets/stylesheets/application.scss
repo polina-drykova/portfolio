@@ -14,15 +14,19 @@
  *= require_self
  */
  // Graphical variables
-// @import "pages";
+@import "components/fonts";
 
 * {
   margin: 0;
   padding: 0;
 }
 
-h1 {
-  font-family: "Lato", "Helvetica", "sans-serif";
+h1, h2, h3 {
+  font-family: $headers-font;
+}
+
+p {
+  font-family: $body-font;
 }
 
 #top a {

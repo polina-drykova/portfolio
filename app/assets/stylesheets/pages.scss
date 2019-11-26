@@ -26,22 +26,26 @@
 }
 
 .navbar ul {
+  padding-right: 5%;
   display: flex;
   list-style: none;
   width: 100%;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .navbar ul li {
   margin: 0 1rem;
-  padding: 1rem;
+  color: #E88584;
+  &:hover {
+    color: #2a3038;
+  }
+  // padding: 1rem;
 }
 
 
 // scrolling items
 .scroll-item {
-  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,7 +53,6 @@
   text-align: center;
   width: 100%;
   height: 100vh;
-
 }
 
 section h1 {
