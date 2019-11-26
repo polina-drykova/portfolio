@@ -13,7 +13,6 @@
  *= require_tree .
  *= require_self
  */
- @import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
  // Graphical variables
 @import "components/fonts";
 
@@ -41,5 +40,11 @@ body {
   color: white;
   line-height: 1.6px;
   height: 100vh;
-  // overflow: hidden;
+  overflow: auto;
+  // scroll-snap-align: center !important;
+}
+
+// hide scrollbar:
+::-webkit-scrollbar {
+    width: 0.1px;
 }
