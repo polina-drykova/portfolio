@@ -18,7 +18,9 @@
   display: flex;
   width: 100%;
   height: 60px;
-  background: black;
+  background: transparent;
+    font-family: "Lato", "Helvetica", "sans-serif";
+
 }
 
 .navbar ul {
@@ -34,14 +36,7 @@
   padding: 1rem;
 }
 
-.navbar ul li a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-    &:hover {
-      color: pink;
-    }
-}
+
 
 .scroll-item {
   color: white;
