@@ -2,10 +2,6 @@
 // @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 @import "components/fonts";
 
-body {
-  background-color: #f4f2f2;
-}
-
 .carousel-wrapper {
   margin: 0;
   padding: 0;
@@ -19,6 +15,7 @@ body {
   align-items: center;
   -webkit-align-items: center;
 }
+
 .title {
   padding: auto;
   line-height: 4;
@@ -155,14 +152,6 @@ body {
   background-size: contain;
 }
 
-// .carousel-item--4 .carousel-item__image{
-//   background-image: url('https://images.pexels.com/photos/1008732/pexels-photo-1008732.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-// }
-
-// .carousel-item--5 .carousel-item__image{
-//   background-image: url('https://images.pexels.com/photos/1029614/pexels-photo-1029614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-// }
-
 .carousel-item__btn {
   width: 35%;
   color: #2C2C2C;
@@ -237,7 +226,6 @@ body {
   font-family: $body-font;
   text-transform: uppercase;
   font-size: 13px;
-
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
