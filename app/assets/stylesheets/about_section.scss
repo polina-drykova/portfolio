@@ -1,0 +1,284 @@
+@import "components/fonts";
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 150%;
+  object-fit: cover;
+}
+
+.title-about {
+  padding: auto;
+  line-height: 2;
+  color: #2a3038;
+  font-size: 26px;
+  // font-weight: bolder;
+    p {
+      font-family: $headers-font;
+      width: 75%;
+      color: #2a3038;
+      // margin-left: 10px;
+      // height: 100px;
+      line-height: 1.4;
+      font-weight: lighter;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+}
+
+.wrapper-about {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  flex-direction: column;
+  margin-top: -160px;
+}
+
+.container-about {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  min-width: 500px;
+  text-align: left;
+}
+
+#left {
+  float: left;
+  width: 100%;
+}
+
+// #right {
+//   float: right;
+// }
+
+// body {
+//   background: #333;
+//   font-family: 'Raleway', sans-serif;
+// }
+
+h1 {
+  color: #2a3038;
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.skills-bar-container {
+  position: relative;
+  width: 100%;
+  min-width: 350px;
+  list-style: none;
+}
+
+.skills-bar-container li {
+  background: white;
+  position: relative;
+  width: 100%;
+  height: 25px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 15px;
+}
+
+.skills-bar-container label {
+  font-family: $body-font;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #2a3038;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 14px;
+  font-weight: 300;
+  z-index: 1;
+  line-height: 1.8;
+}
+
+.progressbar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 15px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+#progress-htmlcss {
+  left: 0;
+  -webkit-animation-name: progress-htmlcss;
+  animation-name: progress-htmlcss;
+  -webkit-animation-delay: .7s;
+  animation-delay: .7s;
+  &.progressblue {
+    // background-color: rgba(188, 25, 40, 1);
+  }
+}
+
+#progress-jsjq {
+  left: 0;
+  -webkit-animation-name: progress-jsjq;
+  animation-name: progress-jsjq;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+  &.progressblue {
+  // background-color: rgba(232, 133, 132, 0.6);
+  // background-color: rgba(200, 150, 45, 1);
+  }
+}
+
+#progress-php {
+  left: 0;
+  -webkit-animation-name: progress-php;
+  animation-name: progress-php;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+  &.progressblue {
+  // background-color: rgba(27, 113, 76, 1);
+  }
+}
+
+#progress-java {
+  left: 0;
+  -webkit-animation-name: progress-java;
+  animation-name: progress-java;
+  -webkit-animation-delay: 2.8s;
+  animation-delay: 2.8s;
+  &.progressblue {
+  // background-color: rgba(89, 54, 180, 1);
+  }
+}
+
+#progress-csharp {
+  left: 0;
+  -webkit-animation-name: progress-csharp;
+  animation-name: progress-csharp;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+#progress-sql {
+  left: 0;
+  -webkit-animation-name: progress-sql;
+  animation-name: progress-sql;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+}
+
+.progressblue {
+  background-color: #70C1B3;
+}
+
+@-webkit-keyframes progress-htmlcss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes progress-jsjq {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@-webkit-keyframes progress-php {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@-webkit-keyframes progress-java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@-moz-keyframes progress-htmlcss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-moz-keyframes progress-jsjq {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@-moz-keyframes progress-php {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@-moz-keyframes progress-java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes progress-htmlcss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress-jsjq {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes progress-php {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes progress-java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
