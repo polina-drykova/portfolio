@@ -145,13 +145,13 @@ body {
 }
 
 .carousel-item--2 .carousel-item__image{
-  background-image: url('macbook.png');
+  background-image: asset-url('macbook.png');
   background-size: contain;
 
 }
 
 .carousel-item--3 .carousel-item__image{
-  background-image: url('macbook2.png');
+  background-image: asset-url('macbook2.png');
   background-size: contain;
 }
 
