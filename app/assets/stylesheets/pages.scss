@@ -4,6 +4,7 @@
 // @import "components/fonts";
 @import "components/social_navbar";
 @import "components/project_card";
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
 
 .container {
   width: 100%;
@@ -13,6 +14,8 @@
   // scroll-behavior: smooth;
   // scroll-snap-type: y mandatory;
 }
+
+
 
 // top navbar:
 .navbar {
