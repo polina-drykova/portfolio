@@ -43,12 +43,33 @@
 .description p{
   width: 75%;
   color: #2a3038;
-  margin: 10px;
+  // margin-left: 10px;
   // height: 100px;
   line-height: 1.4;
   font-weight: lighter;
   font-size: 20px;
 }
+//Text scramble
+.text{
+  font-weight: 100;
+  font-size: 20px;
+  color: #2a3038;
+}
+.dud {
+  color: #7f7e7e;
+}
+.text-scramble {
+  margin:0;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.dev {
+  margin-left: 10px;
+}
+//Text scramble
+
 
 //Scroll icon:
 .container-scroll {
