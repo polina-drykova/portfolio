@@ -40,6 +40,7 @@
 }
 
 .navbar ul li {
+  font-size: 90%;
   color: white;
   // margin: auto 1rem auto 1rem;
   &:hover {
@@ -62,4 +63,62 @@
 section h1 {
   font-size: 30px;
 }
+
+// Smallest device
+@media (max-width: 399px) {
+  .navbar ul li {
+    font-size: 75%;
+  }
+}
+
+// medium device
+@media (min-width: 420px) and (max-width: 779px) {
+  .navbar ul li {
+    font-size: 100%;
+  }
+  .navbar ul {
+    width: 75%;
+  }
+}
+
+// larger device
+@media (min-width: 780px) and (max-width: 1023px) {
+  .navbar ul li {
+    font-size: 100%;
+  }
+   .navbar {
+    height: 7vh;
+  }
+  .navbar ul {
+    width: 75%;
+  }
+}
+
+// extra-larger device
+@media (min-width: 1024px) {
+  .navbar ul li {
+    font-size: 100%;
+  }
+   .navbar {
+    height: 7vh;
+  }
+  .navbar ul {
+    width: 65%;
+  }
+}
+
+
+// $breakpoints: (phone: 640px,
+//                tablet: 768px,
+//                desktop: 1024px) !default;
+
+// @media(">phone", "<tablet") {
+// }
+
+// @media(">=tablet", "<950px") {
+
+// }
+
+// @media(">tablet", "<950px") {
+// }
 
