@@ -227,3 +227,56 @@ $parallax__layers: 6;
     opacity: 1;
   }
 }
+
+// Smallest device
+@media (max-width: 370px) {
+  .parallax__layer {
+    z-index: -1;
+  }
+  .name {
+    z-index: 0;
+  }
+  .description {
+    z-index: 0;
+    p {
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    }
+  }
+  .chevron {
+    left: 45.5%;
+  }
+}
+
+// medium device
+@media (min-width: 420px) and (max-width: 779px) {
+  .wrapper {
+    height: 57%;
+    margin-top: 14vh;
+  }
+  .chevron {
+    left: 47%;
+  }
+}
+
+// larger device
+@media (min-width: 780px) and (max-width: 1023px) {
+    .wrapper {
+      height: 57%;
+      margin-top: 14vh;
+    }
+    .chevron {
+      left: 49%;
+    }
+}
+
+// extra-larger device
+@media (min-width: 1024px) {
+  .wrapper {
+    margin-top: 14vh;
+    height: 49%;
+  }
+  .chevron {
+    left: 49%;
+  }
+}

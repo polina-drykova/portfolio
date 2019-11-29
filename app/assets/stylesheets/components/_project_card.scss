@@ -6,8 +6,6 @@
   background: white;
 }
 
-
-
 .carousel-wrapper {
   margin: 0;
   padding: 0;
@@ -56,8 +54,6 @@
   flex-direction: column;
   overflow: hidden;
   position: relative;
-  // box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  // box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   // box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
@@ -124,7 +120,6 @@
 }
 
 .carousel-item__subtitle {
-  // font-family: 'Open Sans', sans-serif;
   letter-spacing: 3px;
   font-size: 10px;
   text-transform: uppercase;
@@ -157,30 +152,23 @@
   width: 80%;
   height: auto;
   margin: 15px auto 20px auto;
-  // padding: 15px auto 0 auto;
-  // margin: auto 10%;
-  // margin-left: auto;
-  // margin-right: auto;
   transform: translateY(25%);
   opacity: 0;
   visibility: hidden;
   transition: 0.6s all ease-in-out;
-  // margin-top: 35px;
   font-family: $headers-font;
   font-size: 15px;
   font-weight: lighter;
   color: #2a3038;
   line-height: 2;
-  // margin-bottom: 35px;
     p {
-        padding: 15px auto 0 auto;
+      padding: 15px auto 0 auto;
     }
 }
 
 .carousel-item--1 .carousel-item__image{
   background-image: asset-url('macbook1.png');
   background-size: contain;
-  // z-index: 5;
 }
 
 .carousel-item--2 .carousel-item__image{
@@ -312,5 +300,86 @@
     box-shadow:inset 0 0 0 10em rgba(#E88584,1);
     }
   }
+}
+
+// Smallest device
+@media (max-width: 399px) {
+  .title {
+    margin-top: 2%;
+  }
+  .btns {
+    width: 43vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-btn {
+    font-size: 13px;
+  }
+  .carousel-item__title {
+    margin-bottom: 1%;
+  }
+  .carousel-item__image {
+    height: 55%;
+  }
+}
+
+// medium device
+@media (min-width: 420px) and (max-width: 779px) {
+    .title {
+      margin-top: 2%;
+    }
+    .btns {
+      width: 50vh;
+    }
+    .card-btn {
+      font-size: 13px;
+    }
+    .carousel-item__title {
+      margin-bottom: 1%;
+    }
+    .carousel-item__image {
+      height: 55%;
+    }
+}
+
+// larger device
+@media (min-width: 780px) and (max-width: 1023px) {
+  .title {
+    margin-top: 2%;
+  }
+  .btns {
+    width: 50vh;
+  }
+  .card-btn {
+    font-size: 13px;
+  }
+  .carousel-item__title {
+    margin-bottom: 1%;
+  }
+  .carousel-item__image {
+    height: 57%;
+  }
+}
+
+// extra-larger device
+@media (min-width: 1024px) {
+  .title {
+    margin-top: 2%;
+  }
+  .btns {
+    width: 50vh;
+  }
+  .card-btn {
+    font-size: 14px;
+  }
+  .carousel-item__title {
+    margin-bottom: 1%;
+  }
+  .carousel-item__image {
+    height: 65%;
+  }
+  // .carousel-item__description {
+  //   margin: 15px auto 10px auto;
+  // }
 }
 
