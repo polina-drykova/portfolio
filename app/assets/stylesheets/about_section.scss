@@ -3,11 +3,8 @@
 // #FEDCC8
 
 #about {
-  // margin-top: 1%;
-    // width: 100.1%;
-
   overflow: auto;
-      background: #2D112B;
+  background: #2D112B;
 // border: 0.5px solid #2D112B;
 }
 .avatar {
@@ -18,12 +15,10 @@
 }
 
 .title-about {
-  // padding: auto;
   line-height: 2;
   // color: #2a3038;
   color: #FEDCC8;
   font-size: 26px;
-  // font-weight: bolder;
     p {
       font-family: $headers-font;
       width: 79%;
@@ -40,8 +35,7 @@
 }
 
 .wrapper-about {
-    background: #2D112B;
-
+  background: #2D112B;
   width: 100.1%;
   display: flex;
   justify-content: center;
