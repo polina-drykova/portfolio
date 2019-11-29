@@ -296,4 +296,56 @@ h1 {
   }
 }
 
+// Smallest device
+@media (max-width: 399px) {
+
+}
+
+// medium device
+@media (min-width: 420px) and (max-width: 779px) {
+  .wrapper-about {
+    margin-top: -1%;
+  }
+  .title-about, h2, .avatar {
+    margin-bottom: 1%;
+    p {
+      width: 60%;
+    }
+  }
+  // .skills-bar-container {
+  //   width: 85%;
+  // }
+}
+
+// larger device
+@media (min-width: 780px) and (max-width: 1023px) {
+  .wrapper-about {
+    margin-top: -1%;
+  }
+  .title-about, h2, .avatar {
+    margin-bottom: 1%;
+    p {
+      width: 45%;
+    }
+  }
+  .skills-bar-container {
+    width: 65%;
+  }
+}
+
+// extra-larger device
+@media (min-width: 1024px) {
+  .wrapper-about {
+    margin-top: -1%;
+  }
+  .title-about, h2, .avatar {
+    margin-bottom: 1%;
+    p {
+      width: 35%;
+    }
+  }
+  .skills-bar-container {
+    width: 50%;
+  }
+}
 
