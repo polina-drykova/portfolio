@@ -1,27 +1,29 @@
 @import "components/fonts";
 
 .avatar {
-  width: 150px;
-  height: 150px;
+  width: 18vh;
+  height: 18vh;
   border-radius: 150%;
   object-fit: cover;
 }
 
 .title-about {
-  padding: auto;
+  // padding: auto;
   line-height: 2;
   color: #2a3038;
   font-size: 26px;
   // font-weight: bolder;
     p {
       font-family: $headers-font;
-      width: 75%;
+      width: 85%;
       color: #2a3038;
+      margin-left: auto;
+      margin-right: auto;
       // margin-left: 10px;
       // height: 100px;
       line-height: 1.4;
       font-weight: lighter;
-      font-size: 20px;
+      font-size: 68%;
       margin-bottom: 10px;
     }
 }
@@ -35,10 +37,11 @@
 }
 
 .container-about {
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
-  min-width: 500px;
+  // max-width: 800px;
+  // min-width: 500px;
   text-align: left;
 }
 
@@ -65,8 +68,10 @@ h1 {
 
 .skills-bar-container {
   position: relative;
-  width: 100%;
-  min-width: 350px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  // min-width: 350px;
   list-style: none;
 }
 

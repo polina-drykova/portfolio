@@ -24,24 +24,27 @@
   display: flex;
   width: 100%;
   height: 60px;
-  background: transparent;
+  background: rgba(42, 48, 56, 0.5);
   font-family: "Lato", "Helvetica", "sans-serif";
 }
 
 .navbar ul {
-  padding-right: 5%;
+  // padding-right: 5%;
   display: flex;
   list-style: none;
-  width: 100%;
-  justify-content: flex-end;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
   align-items: center;
 }
 
 .navbar ul li {
-  margin: 0 1rem;
-  color: #E88584;
+  color: white;
+  // margin: auto 1rem auto 1rem;
   &:hover {
-    color: #2a3038;
+    color: #E88584;
+    // color: #2a3038;
   }
 }
 
