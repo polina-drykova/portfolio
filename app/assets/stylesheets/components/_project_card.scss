@@ -3,7 +3,7 @@
 @import "fonts";
 
 #work {
-  background: #f8f8f8;
+  background: white;
 }
 
 
@@ -11,7 +11,7 @@
 .carousel-wrapper {
   margin: 0;
   padding: 0;
-  width: 95%;
+  width: 100%;
   height: 85%;
   display: flex;
   display: -webkit-flex;
@@ -23,9 +23,12 @@
 }
 
 .btns {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
@@ -55,7 +58,7 @@ justify-content: space-around;
   position: relative;
   // box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   // box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  // box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .carousel-item__container {
@@ -116,7 +119,7 @@ justify-content: space-around;
   background-repeat: no-repeat;
   background-size: cover;
   position:relative;
-  transform: translateX(100%);
+  transform: translateX(-100%);
   transition: 0.6s all ease-in-out;
 }
 
@@ -139,8 +142,8 @@ justify-content: space-around;
   font-family: $body-font;
   font-size: 30px;
   text-transform: uppercase;
-  line-height: 45px;
-  letter-spacing: 3px;
+  line-height: 1;
+  letter-spacing: 1.5;
   font-weight: 700;
   color: #2a3038;
   transform: translateY(25%);
@@ -153,9 +156,8 @@ justify-content: space-around;
 .carousel-item__description {
   width: 80%;
   height: auto;
-  margin: 15px auto 0 auto;
-    // padding: 15px auto 0 auto;
-
+  margin: 15px auto 20px auto;
+  // padding: 15px auto 0 auto;
   // margin: auto 10%;
   // margin-left: auto;
   // margin-right: auto;
@@ -172,7 +174,6 @@ justify-content: space-around;
   // margin-bottom: 35px;
     p {
         padding: 15px auto 0 auto;
-
     }
 }
 
@@ -256,7 +257,6 @@ justify-content: space-around;
   z-index: 1;
   display: flex;
   visibility:visible;
-  // height: ;
 }
 
 .active .carousel-item__subtitle, .active .carousel-item__title, .active .carousel-item__description,.active .carousel-item__btn {
