@@ -1,6 +1,8 @@
 @import "components/fonts";
 
 #contact {
+  width: 100%;
+  height: 100%;
   background-color: white;
   border-top: 1px solid #e2e2e2;
 }
@@ -14,6 +16,7 @@
       color: #414042;
     }
 }
+
 .contact-wrapper {
   line-height: 1;
   width: 90%;
@@ -61,12 +64,12 @@
   font-size: 14px;
   text-decoration: none;
   background: transparent;
-  // cursor: pointer;
+  cursor: pointer;
   border: 1px solid #E88584;
   border-radius: 8px;
   // height: 2.8rem;
   // width: 8em;
-  padding: 8px 13px;
+  padding: 8px 15px;
   // outline: none;
   // overflow: hidden;
   color: #E88584;
@@ -96,3 +99,69 @@
       color: #E88584;
     }
 }
+
+
+// Smallest device
+@media (max-width: 399px) {
+
+}
+
+// medium device
+@media (min-width: 420px) and (max-width: 779px) {
+  .contact-form {
+    width: 80%;
+  }
+  .contact-info {
+    width: 50%;
+  }
+}
+
+// larger device
+@media (min-width: 780px) and (max-width: 1023px) {
+  .contact-form {
+    width: 70%;
+  }
+  .contact-info {
+    width: 47%;
+  }
+}
+
+// extra-larger device
+@media (min-width: 1024px) {
+  .contact-title {
+    margin-top: 7%;
+  }
+  .contact-info {
+    width: 47%;
+    margin: 1% auto 1% auto;
+    p {
+      font-size: 18px;
+      color: #414042;
+      font-weight: lighter;
+    }
+  }
+  .input-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .field_with_errors {
+    width: 100%;
+  }
+  .form-input {
+    width: 80%;
+  }
+  .form-text {
+    width: 90%;
+  }
+  .contact-form {
+    width: 60%;
+  }
+  .contact-links {
+    width: 18%;
+    margin-top: 0;
+  }
+}
+

@@ -307,7 +307,7 @@ h1 {
 // medium device
 @media (min-width: 420px) and (max-width: 779px) {
   .wrapper-about {
-    margin-top: -1%;
+    margin-top: -15%;
   }
   .title-about, h2, .avatar {
     margin-bottom: 1%;
@@ -323,7 +323,7 @@ h1 {
 // larger device
 @media (min-width: 780px) and (max-width: 1023px) {
   .wrapper-about {
-    margin-top: -1%;
+    margin-top: -15%;
   }
   .title-about, h2, .avatar {
     margin-bottom: 1%;
@@ -339,7 +339,7 @@ h1 {
 // extra-larger device
 @media (min-width: 1024px) {
   .wrapper-about {
-    margin-top: -1%;
+    margin-top: -15%;
   }
   .title-about, h2, .avatar {
     margin-bottom: 1%;
