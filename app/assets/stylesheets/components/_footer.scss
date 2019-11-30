@@ -1,0 +1,45 @@
+@import "components/fonts";
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 90%;
+  margin-top: -50px;
+  clear: both;
+  text-align: center;
+  text-shadow: none;
+  background-color: transparent;
+    p {
+      font-family: $headers-font;
+      font-size:15px;
+      font-weight: lighter;
+      color: gray;
+    }
+}
+
+.footer i.fa {
+  color: gray;
+  font-size: 2.3rem;
+  cursor: pointer;
+  &:hover {
+    color: #E88584;
+  }
+}
+.wobble{
+  animation: bounce 1s infinite;
+  position: relative;
+}
+@keyframes bounce {
+  0% {bottom: 2.5px;}
+  25%,75% {bottom: 5px;}
+  50% {bottom: 7.5px;}
+  100% {bottom: 0px;}
+}
+
+
+
