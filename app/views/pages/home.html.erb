@@ -48,16 +48,16 @@
                 <img src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_1.png?raw=true" />
             </div>
             <div class="parallax__layer parallax__layer__2">
-                <img src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_2.png?raw=true" />
+                <img src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_2.png?raw=true"/>
             </div>
             <div class="parallax__layer parallax__layer__3">
-                <img src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_3.png?raw=true" />
+                <img src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_3.png?raw=true"/>
             </div>
             <div class="parallax__layer parallax__layer__4">
-                <img src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_4.png?raw=true" />
+                <img src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_4.png?raw=true"/>
             </div>
             <div class="parallax__layer parallax__layer__5">
-                <img src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_5.png?raw=true" />
+                <img src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_5.png?raw=true"/>
             </div>
             <div class="parallax__layer parallax__layer__6">
                 <img src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_6.png?raw=true" />
@@ -243,9 +243,19 @@ You can automate your interactions with your customers via personalised backend 
 
 
   <!-- contact section-->
-    <a class="scroll-item" id='contact'>
-      <h1>Contact</h1>
-    </a>
+    <div class="scroll-item" id='contact'>
+      <div class="contact-title">
+        <h1>Contact</h1>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-form">
+          <%= render 'form', @contacts %>
+        </div>
+        <div class="contact-info">
+          <a href="mailto:polina.drykova1988@gmail.com">polina.drykova1988@gmail.com</a>
+        </div>
+      </div>
+    </div>
   <!-- contact section-->
 
 <!-- sections end -->

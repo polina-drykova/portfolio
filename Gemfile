@@ -39,6 +39,7 @@ gem 'simple_form'
 gem 'webpacker', '~> 4.x'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'cloudinary', '~> 1.9.1'
+gem 'mail_form'
 
 
 group :development, :test do
