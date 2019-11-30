@@ -18,8 +18,8 @@ import 'bootstrap';
 import { initSweetalert } from '../plugins/init_sweetalert';
 
 initSweetalert('#sweet-alert-demo', {
-  title: "Sent",
-  text: "Your message successfully sent. I’ll get back within 1-2 days.",
+  title: "Thank you!",
+  text: "Your message has been sent. I’ll get back within 1-2 days.",
   icon: "success"
 });
 console.log('Hello World from Webpacker')
