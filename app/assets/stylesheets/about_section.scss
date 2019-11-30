@@ -7,6 +7,7 @@
   background: #2D112B;
 // border: 0.5px solid #2D112B;
 }
+
 .avatar {
   width: 18vh;
   height: 18vh;
@@ -15,14 +16,15 @@
 }
 
 .title-about {
+  margin-top: 15%;
   line-height: 2;
   // color: #2a3038;
-  color: #FEDCC8;
+  color: #eaeaea;
   font-size: 26px;
     p {
       font-family: $headers-font;
       width: 79%;
-      color: #FEDCC8;
+      color: #eaeaea;
       margin-left: auto;
       margin-right: auto;
       // margin-left: 10px;
@@ -37,6 +39,7 @@
 .wrapper-about {
   background: #2D112B;
   width: 100.1%;
+  height: 100.1%;
   display: flex;
   justify-content: center;
   align-items: top;

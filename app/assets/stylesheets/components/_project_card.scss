@@ -7,7 +7,7 @@
 }
 
 .carousel-wrapper {
-  margin: 0;
+  margin-top: 15%;
   padding: 0;
   width: 100%;
   height: 85%;
@@ -37,7 +37,7 @@
   margin-right: auto;
   padding: auto;
   line-height: 1.5;
-  color: #2a3038;
+  color: #414042;
   font-size: 26px;
   font-weight: bolder;
   // margin-bottom: 10%;
@@ -140,7 +140,7 @@
   line-height: 1;
   letter-spacing: 1.5;
   font-weight: 700;
-  color: #2a3038;
+  color: #414042;
   transform: translateY(25%);
   opacity: 0;
   visibility: hidden;
@@ -159,7 +159,7 @@
   font-family: $headers-font;
   font-size: 15px;
   font-weight: lighter;
-  color: #2a3038;
+  color: #414042;
   line-height: 2;
     p {
       padding: 15px auto 0 auto;

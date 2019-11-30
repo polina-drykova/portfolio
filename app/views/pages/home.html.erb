@@ -14,9 +14,9 @@
   <!-- social links -->
    <div class="social">
     <ul class="wall">
-      <li><a href="#"><i class="fa fa-github"></i><span>Github</span></a></li>
+      <li><a href="https://github.com/polina-drykova"><i class="fa fa-github"></i><span>Github</span></a></li>
       <li><a href="#"><i class="fa fa-linkedin"></i><span>Linked</span></li>
-      <li><a href="#"><i class="fa fa-google-plus"></i><span>Google</span></li>
+      <li><a href="#"><i class="fa fa-envelope" style="font-weight: normal;"></i><span>Google</span></li>
       <!-- <li><a href="#about"><i class="fa fa-info"></i><span>About</span></li>
       <li><a href="#contact"><i class="fa fa-paper-plane"></i><span>Contact</span></li> -->
     </ul>
@@ -245,19 +245,23 @@ You can automate your interactions with your customers via personalised backend 
   <!-- contact section-->
     <div class="scroll-item" id='contact'>
       <div class="contact-title">
-        <h1>Contact</h1>
+        <h1>Get in touch</h1>
+      </div>
+      <div class="contact-info">
+        <p>If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
       </div>
       <div class="contact-wrapper">
         <div class="contact-form">
           <%= render 'form', @contacts %>
         </div>
-        <div class="contact-info">
-          <a href="mailto:polina.drykova1988@gmail.com">polina.drykova1988@gmail.com</a>
-        </div>
+      </div>
+      <div class="contact-links">
+        <%= link_to 'GitHub', 'https://github.com/polina-drykova', target: '_blank', class: 'links' %>
+        <%= link_to 'Gmail', 'mailto:polina.drykova1988@gmail.com', target: '_blank', class: 'links' %>
+        <%= link_to 'LinkedIn', 'linkedin.com/in/polina-drykova', target: '_blank', class: 'links' %>
       </div>
     </div>
   <!-- contact section-->
-
 <!-- sections end -->
 </div>
 

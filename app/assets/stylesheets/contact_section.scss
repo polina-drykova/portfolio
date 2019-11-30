@@ -1,17 +1,98 @@
+@import "components/fonts";
+
+#contact {
+  background-color: white;
+  border-top: 1px solid #e2e2e2;
+}
 .contact-title {
-  line-height: 2;
-  // color: #2a3038;
-  color: #FEDCC8;
-  font-size: 26px;
+  margin-top: 12%;
+  line-height: 1;
+  font-size: 20px;
+  text-transform: uppercase;
+  // color: #FEDCC8;
+    h1 {
+      color: #414042;
+    }
 }
 .contact-wrapper {
+  line-height: 1;
+  width: 90%;
 
+}
+
+.form-input, .form-text {
+  width: 80%;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  padding: 10px 6px;
+  font-size: 16px;
+  margin: auto auto 5% auto;
+  font-family: $body-font;
+  // margin-bottom: 10%;
+}
+
+.form-text {
+  // height: auto;
+  padding-bottom: 10%;
 }
 
 .contact-form {
+  width: 100%;
+  margin: 5% auto 0 auto;
 
 }
 
 .contact-info {
+  width: 80%;
+  margin: 5% auto 5% auto;
+  p {
+    font-size: 18px;
+    color: #414042;
+    font-weight: lighter;
+  }
+}
 
+.form-btn {
+  margin: 5% auto 5% auto;
+  font-family: $body-font;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  background: transparent;
+  // cursor: pointer;
+  border: 1px solid #E88584;
+  border-radius: 8px;
+  // height: 2.8rem;
+  // width: 8em;
+  padding: 8px 13px;
+  // outline: none;
+  // overflow: hidden;
+  color: #E88584;
+  transition: color 0.3s 0.1s ease-out;
+  // text-align: center;
+  // line-height: 250%;
+  &:hover{
+    color: #fff;
+    background: #E88584;
+  }
+}
+
+.contact-links {
+  line-height: 2;
+  width: 55%;
+  margin: 5% auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  font-family: $body-font;
+  color: gray;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+    &:hover {
+      color: #E88584;
+    }
 }
