@@ -15,5 +15,11 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 import 'bootstrap';
+import { initSweetalert } from '../plugins/init_sweetalert';
 
+initSweetalert('#sweet-alert-demo', {
+  title: "Sent",
+  text: "Your message successfully sent. I’ll get back within 1-2 days.",
+  icon: "success"
+});
 console.log('Hello World from Webpacker')
