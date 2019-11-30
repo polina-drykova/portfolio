@@ -17,7 +17,7 @@
   position: relative;
   display: inline-flex;
   align-items: center;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0);
   margin: 0 0 8px 0;
   padding: 0 0 0 3px;
   color: white;
@@ -34,20 +34,20 @@
   position: relative;
   opacity: 0.85;
   top: 0.04em;
-  color: white;
+  color: #414042;
   z-index: 1;
 }
 
 .social ul li i.fa.fa-github {
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
 
-.social ul li i.fa.fa-paper-plane {
+.social ul li i.fa.fa-envelope {
+  font-size: 1.05em;
+}
+
+.social ul li i.fa.fa-linkedin {
   font-size: 1.2em;
-}
-
-.social ul li i.fa.fa-info {
-  font-size: 1.45em;
 }
 
 .social ul li span {
@@ -63,7 +63,7 @@
 }
 
 .social ul li:hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(65, 64, 66, 0.6);
   transition: all 0.18s ease-out;
 }
 
@@ -78,15 +78,15 @@
 }
 
 .social ul li:hover i.fa-github {
-  color: #E88584;
+  color: #FEDCC8;
 }
 
 .social ul li:hover i.fa-linkedin {
-  color: #80A38C;
+  color: #FEDCC8;
 }
 
-.social ul li:hover i.fa-google-plus {
-  color: #fedd31;
+.social ul li:hover i.fa-envelope {
+  color: #FEDCC8;
 }
 
 .social ul li:hover i.fa-info {
@@ -108,7 +108,7 @@
 }
 
 .social ul.wall li:hover {
-  width: 110px;
+  width: 100px;
   transition: all 0.18s ease-out;
 }
 
