@@ -4,6 +4,7 @@
 // @import "components/fonts";
 @import "components/social_navbar";
 @import "components/project_card";
+@import "components/fonts";
 // @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
 
 .container {
@@ -13,6 +14,51 @@
   // overflow-y: scroll;
   // scroll-behavior: smooth;
   // scroll-snap-type: y mandatory;
+}
+
+// Sweet alert
+.swal-button {
+  margin: 5% auto 5% auto;
+  font-family: "Roboto", "Helvetica", "sans-serif";
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  background: white;
+  cursor: pointer;
+  border: 1px solid #E88584;
+  border-radius: 8px;
+  outline: white !important;
+  box-shadow: white;
+  // height: 2.8rem;
+  // width: 8em;
+  padding: 8px 20px;
+  // outline: none;
+  // overflow: hidden;
+  color: #E88584;
+  transition: color 0.3s 0.1s ease-out;
+  align-self: center;
+  // line-height: 250%;
+  &:hover{
+    color: #fff;
+    background-color: #E88584 !important;
+  }
+}
+.swal-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.swal-text {
+  font-family: "Lato", "Helvetica", "sans-serif" !important;
+  width: 70%;
+  text-align: center;
+  font-weight: lighter;
+}
+.swal-title {
+  font-family: "Roboto", "Helvetica", "sans-serif" !important;
+}
+.swal-modal {
+  font-family: "Lato", "Helvetica", "sans-serif" !important;
+  color: #414042;
 }
 
 
