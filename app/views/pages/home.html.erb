@@ -1,14 +1,15 @@
 <div class="container">
-  <!-- navbar -->
+  <!-- navbar var1 -->
     <div id='top' class="navbar">
       <ul>
         <a href="#home"><li>Home</li></a>
         <a href="#about"><li>About</li></a>
-        <a href="#projects"><li>Projects</li></a>
+        <a href="#work"><li>Projects</li></a>
+        <!-- <a href="#skills"><li>Skills</li></a> -->
         <a href="#contact"><li>Contact</li></a>
       </ul>
     </div>
-  <!-- navbar -->
+  <!-- navbar var1 -->
 
   <!-- social links -->
    <div class="social">
@@ -17,6 +18,8 @@
       <li><a href="https://github.com/polina-drykova" target="_blank"><i class="fa fa-github"></i><span>Github</span></a></li>
       <li><a href="https://linkedin.com/in/polina-drykova" target="_blank"><i class="fa fa-linkedin"></i><span>Linked</span></li>
       <li><a href="mailto:polina.drykova1988@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-weight: normal;"></i><span>Gmail</span></li>
+      <!-- <li><a href="#about"><i class="fa fa-info"></i><span>About</span></li>
+      <li><a href="#contact"><i class="fa fa-paper-plane"></i><span>Contact</span></li> -->
     </ul>
   </div>
   <!-- social links -->
@@ -35,7 +38,7 @@
   <!-- social media bar -->
 
 <!-- sections start -->
-  <!-- Home section-->
+  <!-- home section-->
     <a class="scroll-item" id='home'>
       <div class="main">
         <div class="parallax">
@@ -86,7 +89,7 @@
         <!-- scroll down icon -->
       </div>
     </a>
-  <!-- Home section-->
+  <!-- home section-->
 
 
 
@@ -127,13 +130,39 @@ You can automate your interactions with your customers via personalised backend 
             </li>
           </ul>
         </div>
-      </div>
-      </div>
+
+       <!-- <div id="right">
+         <h1>Programming</h1>
+         <ul class="skills-bar-container">
+           <label>Java</label>
+           <span class="percent"></span>
+           <li>
+             <span class="progressbar progressblue" id="progress-java"></span>
+           </li>
+
+           <label>C#</label>
+           <span class="percent" id="angular-pourcent"></span>
+           <li>
+             <span class="progressbar progressblue" id="progress-csharp"></span>
+           </li>
+
+           <label>SQL / MySQL</label>
+           <span class="percent" id="angular-pourcent"></span>
+           <li>
+             <span class="progressbar progressblue" id="progress-sql"></span>
+           </li>
+         </ul>
+       </div> -->
+     </div>
+     </div>
+
+
+        <!-- end section -->
     </a>
   <!-- About section-->
 
-  <!-- Projects section-->
-    <div class="scroll-item" id='projects'>
+  <!-- work section-->
+    <div class="scroll-item" id='work'>
       <!-- carousel -->
       <div class="carousel-wrapper">
       <div class="title">
@@ -159,7 +188,7 @@ You can automate your interactions with your customers via personalised backend 
                 <h1 class="carousel-item__title">MealScope</h1>
                 <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam.</p>
                 <!-- <a href="#" class="carousel-item__btn">Explore the tour</a> -->
-                <div class="carousel-item__image"></div>
+            <div class="carousel-item__image"></div>
               </div>
               <div class="btns">
                 <a class="card-btn" href="http://mealscope.herokuapp.com/" target="_blank"><i class="fa fa-dribbble"></i> Explore</a>
@@ -173,13 +202,15 @@ You can automate your interactions with your customers via personalised backend 
                 <!-- <h2 class="carousel-item__subtitle">The big window </h2> -->
                 <h1 class="carousel-item__title">Snapshot</h1>
                 <p class="carousel-item__description">Clear Glass Window With Brown and White voluptatem accusantium doloremque laudantium.</p>
-                <div class="carousel-item__image"></div>
+            <div class="carousel-item__image"></div>
                 <!-- <a href="#" class="carousel-item__btn">Read the article</a> -->
               </div>
               <div class="btns">
+
                 <a class="card-btn" href="https://snapshot-lewagon.herokuapp.com/" target="_blank"><i class="fa fa-dribbble"></i> Explore</a>
                 <a class="card-btn" href="https://github.com/polina-drykova/snapshot" target="_blank"><i class="fa fa-github"></i> Github</a>
-              </div>
+                </div>
+
             </div>
           </div>
           <div class="carousel-item carousel-item--3">
@@ -189,21 +220,30 @@ You can automate your interactions with your customers via personalised backend 
                 <h1 class="carousel-item__title">Mixit</h1>
                 <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam.</p>
                 <!-- <a href="#" class="carousel-item__btn">Explore the palms</a> -->
-                <div class="carousel-item__image"></div>
+            <div class="carousel-item__image"></div>
               </div>
-              <div class="btns">
+                            <div class="btns">
+
                 <a class="card-btn" href="https://rails-mixit.herokuapp.com/" target="_blank"><i class="fa fa-dribbble"></i> Explore</a>
                 <a class="card-btn" href="https://github.com/polina-drykova/mixit" target="_blank"><i class="fa fa-github"></i> Github</a>
-              </div>
+                              </div>
+
             </div>
           </div>
         </div>
       </div>
       <!-- carousel -->
     </div>
-  <!-- Projects section-->
+  <!-- work section-->
 
-  <!-- Contact section-->
+  <!-- skills section-->
+    <!--  <a class="scroll-item" id='skills'>
+      <h1>Skills</h1>
+    </a> -->
+  <!-- skills section-->
+
+
+  <!-- contact section-->
     <div class="scroll-item" id='contact'>
       <div class="contact-title">
         <h1>Get in touch</h1>
@@ -214,12 +254,9 @@ You can automate your interactions with your customers via personalised backend 
       <div class="contact-wrapper">
         <div class="contact-form">
           <%= render 'form', @contacts %>
+<!--           <button id="sweet-alert-demo" class="btn btn-primary">Click me!</button>
+ -->
         </div>
-      </div>
-      <div class='notice' style="color: black">
-        <% if flash[:notice].present? %>
-          <p><%= flash[:notice] %></p>
-        <% end %>
       </div>
       <div class="contact-links">
         <%= link_to 'GitHub', 'https://github.com/polina-drykova', target: '_blank', class: 'links' %>
@@ -227,7 +264,7 @@ You can automate your interactions with your customers via personalised backend 
         <%= link_to 'LinkedIn', 'linkedin.com/in/polina-drykova', target: '_blank', class: 'links' %>
       </div>
     </div>
-  <!-- Contact section-->
+  <!-- contact section-->
 <!-- sections end -->
 </div>
 
@@ -236,6 +273,8 @@ You can automate your interactions with your customers via personalised backend 
 <!-- JavaScript codes -->
   <div class="hidden-code">
 <!-- JS for TextScramble -->
+
+<!-- -->
        <script>
          class TextScramble {
            constructor(el) {

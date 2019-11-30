@@ -16,7 +16,12 @@
       <%= f.label :nickname %> <br>
       <%= f.text_field :nickname, hint: 'leave this field blank' %>
     </div>
-
+    <div class='notice'>
+        <% if flash[:notice].present? %>
+        <%= cl_image_tag ("https://image.flaticon.com/icons/svg/443/443138.svg") %>
+          <%= flash[:notice] %>
+        <% end %>
+      </div>
     <%= f.submit 'Send Message', id: 'sweet-alert-demo', data: { disable_with: 'Sending…' }, class: "form-btn" %>
 
   <% end %>
