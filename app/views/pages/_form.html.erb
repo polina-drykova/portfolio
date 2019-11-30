@@ -17,5 +17,6 @@
       <%= f.text_field :nickname, hint: 'leave this field blank' %>
     </div>
 
-    <%= f.submit 'Send Message', id: 'sweet-alert-demo', class: "form-btn" %>
+    <%= f.submit 'Send Message', id: 'sweet-alert-demo', data: { disable_with: 'Sending…' }, class: "form-btn" %>
+
   <% end %>
