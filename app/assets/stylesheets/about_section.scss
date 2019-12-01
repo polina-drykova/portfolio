@@ -270,14 +270,23 @@ h1 {
 }
 
 // Smallest device
-@media (max-width: 399px) {
+@media (max-width: 374px) {
+  .avatar {
+    width: 15vh;
+    height: 15vh;
+
+  }
+  .title-about {
+    font-size: 22px;
+  }
   .wrapper-about {
     margin-top: -8%;
   }
   .title-about, h2, .avatar {
     margin-bottom: 1%;
     p {
-      width: 80%;
+      font-size: 58%;
+      width: 77%;
     }
   }
   .skills-bar-container {
@@ -286,7 +295,8 @@ h1 {
 }
 
 // medium device
-@media (min-width: 420px) and (max-width: 779px) {
+@media (min-width: 375px) and (max-width: 779px) {
+
   .wrapper-about {
     margin-top: -10%;
   }

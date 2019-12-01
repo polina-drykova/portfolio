@@ -107,17 +107,24 @@
 
 
 // Smallest device
-@media (max-width: 399px) {
+@media (max-width: 374px) {
+  .contact-form {
+    visibility: hidden;
+    height: 10vh;
+  }
+  .contact-info {
+    width: 55%;
+  }
 
 }
 
 // medium device
-@media (min-width: 420px) and (max-width: 779px) {
+@media (min-width: 375px) and (max-width: 779px) {
   .contact-form {
-    width: 80%;
+    width: 85%;
   }
   .contact-info {
-    width: 50%;
+    width: 60%;
   }
 }
 

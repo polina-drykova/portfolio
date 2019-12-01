@@ -44,12 +44,14 @@
 }
 
 // Smallest device
-@media (max-width: 399px) {
-
+@media (max-width: 374px) {
+  .footer p{
+    margin-bottom: 5%;
+  }
 }
 
 // medium device
-@media (min-width: 420px) and (max-width: 779px) {
+@media (min-width: 375px) and (max-width: 779px) {
 
 }
 

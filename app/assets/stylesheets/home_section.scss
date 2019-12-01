@@ -212,12 +212,13 @@
 }
 
 // Smallest device
-@media (max-width: 375px) {
+@media (max-width: 374px) {
   .wrapper {
     height: 55%;
-    margin-top: 14vh;
+    margin-top: 12vh;
   }
   .chevron {
+    margin-top: -15%;
     left: 47%;
   }
   .name {
@@ -225,8 +226,22 @@
   }
 }
 
+// // Smallest device
+// @media (max-width: 375px) {
+//   .wrapper {
+//     height: 55%;
+//     margin-top: 14vh;
+//   }
+//   .chevron {
+//     left: 47%;
+//   }
+//   .name {
+//     margin-top: 10vh;
+//   }
+// }
+
 // medium device
-@media (min-width: 430px) and (max-width: 779px) {
+@media (min-width: 375px) and (max-width: 779px) {
   .wrapper {
     height: 55%;
     margin-top: 14vh;
