@@ -267,21 +267,41 @@ a.slide_btn {
 
 // larger device
 @media (min-width: 780px) and (max-width: 1023px) {
+  .carousel-wrapper {
+    margin-top: 0;
+  }
+  .slider {
+    width: 55%;
+  }
+  .slide {
+    height: 90%;
+  }
+  .slide_viewer {
+    margin-top: 2%;
+  }
   .title {
-    margin-top: -6%;
-    margin-bottom: 1%;
+    margin-top: 10%;
+    margin-bottom: 0;
   }
   .btns {
-    width: 50vh;
+    margin-top: 4%;
+    width: 40vh;
+  }
+  .slide_buttons {
+    margin-top: 0;
   }
   .card-btn {
-    font-size: 13px;
+    padding: 8px 22px;
+    font-size: 14px;
   }
-  .carousel-item__title {
-    margin-bottom: 1%;
+  .slide img {
+    width: 60%;
+    margin-top: 0;
+    margin-bottom: 2%;
   }
-  .carousel-item__image {
-    height: 57%;
+  .directional_nav {
+    visibility: visible;
+    width: 70%;
   }
 }
 

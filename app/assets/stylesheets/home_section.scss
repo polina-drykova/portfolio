@@ -212,45 +212,45 @@
 }
 
 // Smallest device
-@media (max-width: 370px) {
-  .parallax__layer {
-    z-index: -1;
-  }
-  .name {
-    z-index: 0;
-  }
-  .description {
-    z-index: 0;
-    p {
-    color: white;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-    }
+@media (max-width: 375px) {
+  .wrapper {
+    height: 55%;
+    margin-top: 14vh;
   }
   .chevron {
-    left: 45.5%;
+    left: 47%;
+  }
+  .name {
+    margin-top: 10vh;
   }
 }
 
 // medium device
 @media (min-width: 420px) and (max-width: 779px) {
   .wrapper {
-    height: 57%;
+    height: 55%;
     margin-top: 14vh;
   }
   .chevron {
     left: 47%;
   }
+  .name {
+    margin-top: 10vh;
+  }
 }
 
 // larger device
 @media (min-width: 780px) and (max-width: 1023px) {
-    .wrapper {
-      height: 57%;
-      margin-top: 14vh;
-    }
-    .chevron {
-      left: 49%;
-    }
+  .wrapper {
+    margin-top: 17vh;
+    height: 40%;
+  }
+  .chevron {
+    left: 49%;
+  }
+  .name {
+    margin-top: 10vh;
+  }
 }
 
 // extra-larger device

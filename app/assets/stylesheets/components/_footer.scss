@@ -55,7 +55,10 @@
 
 // larger device
 @media (min-width: 780px) and (max-width: 1023px) {
-
+   .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 // extra-larger device
