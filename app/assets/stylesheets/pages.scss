@@ -3,9 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 // @import "components/fonts";
 @import "components/social_navbar";
-@import "components/project_card";
+@import "project_section";
 @import "components/fonts";
-// @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
 
 .container {
   width: 100%;
@@ -16,52 +15,6 @@
   // scroll-snap-type: y mandatory;
 }
 
-// Sweet alert
-.swal-button {
-  margin: 5% auto 5% auto;
-  font-family: "Roboto", "Helvetica", "sans-serif";
-  text-transform: uppercase;
-  font-size: 14px;
-  text-decoration: none;
-  background: white;
-  cursor: pointer;
-  border: 1px solid #E88584;
-  border-radius: 8px;
-  outline: white !important;
-  box-shadow: white;
-  // height: 2.8rem;
-  // width: 8em;
-  padding: 8px 20px;
-  // outline: none;
-  // overflow: hidden;
-  color: #E88584;
-  transition: color 0.3s 0.1s ease-out;
-  align-self: center;
-  // line-height: 250%;
-  &:hover{
-    color: #fff;
-    background-color: #E88584 !important;
-  }
-}
-.swal-button:focus {
-  outline: none;
-  box-shadow: none;
-}
-.swal-text {
-  font-family: "Lato", "Helvetica", "sans-serif" !important;
-  width: 70%;
-  text-align: center;
-  font-weight: lighter;
-}
-.swal-title {
-  font-family: "Roboto", "Helvetica", "sans-serif" !important;
-}
-.swal-modal {
-  font-family: "Lato", "Helvetica", "sans-serif" !important;
-  color: #414042;
-}
-
-
 // top navbar:
 .navbar {
   position: fixed;
@@ -70,12 +23,11 @@
   display: flex;
   width: 100%;
   height: 60px;
-  background: rgba(65, 64, 66, 0.5);
+  background: transparent;
   font-family: "Lato", "Helvetica", "sans-serif";
 }
 
 .navbar ul {
-  // padding-right: 5%;
   display: flex;
   list-style: none;
   width: 90%;
@@ -87,11 +39,9 @@
 
 .navbar ul li {
   font-size: 90%;
-  color: white;
-  // margin: auto 1rem auto 1rem;
+  color: #414042;
   &:hover {
-    color: #FEDCC8;
-    // color: #2a3038;
+    color: black;
   }
 }
 
