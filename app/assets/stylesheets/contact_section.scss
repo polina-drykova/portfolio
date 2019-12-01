@@ -134,10 +134,10 @@
 // extra-larger device
 @media (min-width: 1024px) {
   .contact-title {
-    margin-top: 7%;
+    margin-top: -3%;
   }
   .contact-info {
-    width: 47%;
+    width: 45%;
     margin: 1% auto 1% auto;
     p {
       font-size: 18px;
@@ -145,6 +145,7 @@
       font-weight: lighter;
     }
   }
+
   .input-group {
     width: 100%;
     display: flex;
@@ -168,6 +169,7 @@
     width: 18%;
     margin-top: 0;
   }
+
 }
 
 
