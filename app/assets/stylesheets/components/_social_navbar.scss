@@ -63,7 +63,7 @@
 }
 
 .social ul li:hover {
-  background: rgba(65, 64, 66, 0.6);
+  background: rgba(65, 64, 66, 0.4);
   transition: all 0.18s ease-out;
 }
 
@@ -78,15 +78,15 @@
 }
 
 .social ul li:hover i.fa-github {
-  color: #70C1B3;
+  color: white;
 }
 
 .social ul li:hover i.fa-linkedin {
-  color: #70C1B3;
+  color: white;
 }
 
 .social ul li:hover i.fa-envelope {
-  color: #70C1B3;
+  color: white;
 }
 
 .social ul li:hover i.fa-info {
@@ -108,7 +108,7 @@
 }
 
 .social ul.wall li:hover {
-  width: 100px;
+  width: 90px;
   transition: all 0.18s ease-out;
 }
 
@@ -123,6 +123,6 @@
 
 .wall h1 {
   font-size: 15px !important;
-
+  margin-left: auto !important;
 }
 //social side navbar
