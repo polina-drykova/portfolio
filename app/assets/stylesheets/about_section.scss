@@ -15,7 +15,7 @@
 }
 
 .title-about {
-  margin-top: 15%;
+  margin-top: 5%;
   line-height: 2;
   color: #414042;
   font-size: 26px;
@@ -271,13 +271,24 @@ h1 {
 
 // Smallest device
 @media (max-width: 399px) {
-
+  .wrapper-about {
+    margin-top: -8%;
+  }
+  .title-about, h2, .avatar {
+    margin-bottom: 1%;
+    p {
+      width: 80%;
+    }
+  }
+  .skills-bar-container {
+    width: 90%;
+  }
 }
 
 // medium device
 @media (min-width: 420px) and (max-width: 779px) {
   .wrapper-about {
-    margin-top: -15%;
+    margin-top: -10%;
   }
   .title-about, h2, .avatar {
     margin-bottom: 1%;
@@ -293,23 +304,23 @@ h1 {
 // larger device
 @media (min-width: 780px) and (max-width: 1023px) {
   .wrapper-about {
-    margin-top: -15%;
+    margin-top: -8%;
   }
   .title-about, h2, .avatar {
     margin-bottom: 1%;
     p {
-      width: 45%;
+      width: 40%;
     }
   }
   .skills-bar-container {
-    width: 65%;
+    width: 55%;
   }
 }
 
 // extra-larger device
 @media (min-width: 1024px) {
   .wrapper-about {
-    margin-top: -15%;
+    margin-top: -10%;
   }
   .title-about, h2, .avatar {
     margin-bottom: 1%;
