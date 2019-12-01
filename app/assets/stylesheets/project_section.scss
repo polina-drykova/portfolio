@@ -110,6 +110,7 @@
 .slide_buttons {
   margin-top: 5%;
   text-align: center;
+  background: transparent;
 }
 
 a.slide_btn {
@@ -226,9 +227,15 @@ a.slide_btn {
 }
 
 // Smallest device
-@media (max-width: 399px) {
+@media (max-width: 374px) {
   .title {
-    margin-top: 2%;
+    margin-top: 8%;
+    font-size: 22px;
+    margin-bottom: 0;
+    line-height: 1;
+  }
+  .slide h1 {
+    font-size: 26px;
   }
   .btns {
     width: 43vh;
@@ -238,31 +245,30 @@ a.slide_btn {
   .card-btn {
     font-size: 13px;
   }
-  .carousel-item__title {
-    margin-bottom: 1%;
+  .slide_buttons {
+    margin-top: 5%;
   }
-  .carousel-item__image {
-    height: 55%;
+  .slide img {
+    margin-top: 0;
   }
 }
 
 // medium device
-@media (min-width: 420px) and (max-width: 779px) {
+@media (min-width: 375px) and (max-width: 779px) {
     .title {
       margin-top: 2%;
     }
     .btns {
-      width: 50vh;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
     }
     .card-btn {
+      margin-left: auto;
+      margin-right: auto;
       font-size: 13px;
     }
-    .carousel-item__title {
-      margin-bottom: 1%;
-    }
-    .carousel-item__image {
-      height: 55%;
-    }
+
 }
 
 // larger device
