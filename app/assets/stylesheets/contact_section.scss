@@ -7,7 +7,7 @@
   border-top: 1px solid #e2e2e2;
 }
 .contact-title {
-  margin-top: 12%;
+  margin-top: -20%;
   line-height: 1;
   font-size: 20px;
   text-transform: uppercase;
@@ -55,13 +55,13 @@
 
 .contact-form {
   width: 100%;
-  margin: 5% auto 0 auto;
+  margin: 1% auto 0 auto;
 
 }
 
 .contact-info {
   width: 80%;
-  margin: 5% auto 1% auto;
+  margin: 1% auto 1% auto;
   p {
     font-size: 18px;
     color: #414042;
@@ -88,9 +88,9 @@
   }
 }
 .contact-links {
-  line-height: 2;
+  line-height: 1;
   width: 55%;
-  margin: 5% auto 0 auto;
+  margin: 1% auto 0 auto;
   display: flex;
   justify-content: space-between;
 }

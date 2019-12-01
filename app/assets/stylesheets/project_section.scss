@@ -1,6 +1,6 @@
 // @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
 // @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
-@import "fonts";
+@import "components/fonts";
 
 #work {
   background: white;
@@ -22,7 +22,7 @@
 .title {
   width: 70%;
   margin-top: 0;
-  margin-bottom: 10%;
+  margin-bottom: 4%;
   margin-left: auto;
   margin-right: auto;
   padding: auto;
@@ -34,7 +34,8 @@
 
 .slider {
   margin: 0 auto;
-  max-width: 940px;
+  width: 100%;
+  // max-width: 940px;
 }
 
 .slide_viewer {
@@ -42,7 +43,7 @@
   height: 60vh;
   overflow: hidden;
   position: relative;
-  width: 90vh;
+  width: 100%;
 }
 
 .slide_group {
@@ -99,15 +100,15 @@
 }
 
 .slide img {
-  width: 60vh;
+  width: 95%;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .slide_buttons {
-  margin-top: 2%;
+  margin-top: 5%;
   text-align: center;
 }
 
@@ -128,12 +129,14 @@ a.slide_btn {
 }
 
 .directional_nav {
+  visibility: hidden;
   height: 100%;
   margin: 0 auto;
-  width: 65%;
+  width: 98%;
   position: relative;
   text-align: absolute;
   top: -340px;
+  // bottom: 10%;
   display: flex;
   justify-content: space-between;
   &:hover {
@@ -176,7 +179,7 @@ a.slide_btn {
 
 //Buttons
 .btns {
-  width: 80%;
+  width: 75%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -194,15 +197,12 @@ a.slide_btn {
   cursor: pointer;
   border: 1px solid #70C1B3;
   border-radius: 8px;
-  // height: 2.8rem;
-  width: 8em;
-  padding: 8px 13px;
+  padding: 8px 16px;
   outline: none;
   overflow: hidden;
   color: #70C1B3;
   transition: color 0.3s 0.1s ease-out;
   text-align: center;
-  // line-height: 250%;
   &::before{
     // content:'';
     border-radius: 50%;

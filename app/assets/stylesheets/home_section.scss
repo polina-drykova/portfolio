@@ -14,10 +14,10 @@
 
 .wrapper {
   width: 80%;
-  height: 50%;
+  height: 45%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 55%;
+  margin-top: 40%;
   background: transparent;
   display: flex;
   flex-direction: column;
@@ -29,16 +29,18 @@
   margin-bottom: 10px;
   height: auto;
   line-height: 1;
-  font-size: 250%;
+  font-size: 280%;
   font-weight: bolder;
 }
 
 .description p {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
   color: #f4f4f4;
   line-height: 1.4;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 150%;
 }
 
 //Text scramble
