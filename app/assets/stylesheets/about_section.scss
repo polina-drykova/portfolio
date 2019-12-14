@@ -109,34 +109,34 @@ h1 {
   animation-fill-mode: both;
 }
 
-#progress-htmlcss {
+#progress-ruby {
   left: 0;
-  -webkit-animation-name: progress-htmlcss;
-  animation-name: progress-htmlcss;
+  -webkit-animation-name: progress-ruby;
+  animation-name: progress-ruby;
   -webkit-animation-delay: .7s;
   animation-delay: .7s;
 }
 
-#progress-jsjq {
+#progress-htmlcss {
   left: 0;
-  -webkit-animation-name: progress-jsjq;
-  animation-name: progress-jsjq;
+  -webkit-animation-name: progress-htmlcss;
+  animation-name: progress-htmlcss;
   -webkit-animation-delay: 1.4s;
   animation-delay: 1.4s;
 }
 
-#progress-php {
+#progress-js {
   left: 0;
-  -webkit-animation-name: progress-php;
-  animation-name: progress-php;
+  -webkit-animation-name: progress-js;
+  animation-name: progress-js;
   -webkit-animation-delay: 2.1s;
   animation-delay: 2.1s;
 }
 
-#progress-java {
+#progress-github {
   left: 0;
-  -webkit-animation-name: progress-java;
-  animation-name: progress-java;
+  -webkit-animation-name: progress-github;
+  animation-name: progress-github;
   -webkit-animation-delay: 2.8s;
   animation-delay: 2.8s;
 }
@@ -161,7 +161,7 @@ h1 {
   background-color: #70C1B3;
 }
 
-@-webkit-keyframes progress-htmlcss {
+@-webkit-keyframes progress-ruby {
   0% {
     width: 0%;
   }
@@ -170,7 +170,7 @@ h1 {
   }
 }
 
-@-webkit-keyframes progress-jsjq {
+@-webkit-keyframes progress-htmlcss {
   0% {
     width: 0%;
   }
@@ -179,7 +179,7 @@ h1 {
   }
 }
 
-@-webkit-keyframes progress-php {
+@-webkit-keyframes progress-js {
   0% {
     width: 0%;
   }
@@ -188,12 +188,21 @@ h1 {
   }
 }
 
-@-webkit-keyframes progress-java {
+@-webkit-keyframes progress-github {
   0% {
     width: 0%;
   }
   100% {
     width: 70%;
+  }
+}
+
+@-moz-keyframes progress-ruby {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
   }
 }
 
@@ -202,20 +211,11 @@ h1 {
     width: 0%;
   }
   100% {
-    width: 90%;
-  }
-}
-
-@-moz-keyframes progress-jsjq {
-  0% {
-    width: 0%;
-  }
-  100% {
     width: 85%;
   }
 }
 
-@-moz-keyframes progress-php {
+@-moz-keyframes progress-js {
   0% {
     width: 0%;
   }
@@ -224,7 +224,7 @@ h1 {
   }
 }
 
-@-moz-keyframes progress-java {
+@-moz-keyframes progress-github {
   0% {
     width: 0%;
   }
@@ -233,7 +233,7 @@ h1 {
   }
 }
 
-@keyframes progress-htmlcss {
+@keyframes progress-ruby {
   0% {
     width: 0%;
   }
@@ -242,7 +242,7 @@ h1 {
   }
 }
 
-@keyframes progress-jsjq {
+@keyframes progress-htmlcss {
   0% {
     width: 0%;
   }
@@ -251,7 +251,7 @@ h1 {
   }
 }
 
-@keyframes progress-php {
+@keyframes progress-js {
   0% {
     width: 0%;
   }
@@ -260,7 +260,7 @@ h1 {
   }
 }
 
-@keyframes progress-java {
+@keyframes progress-github {
   0% {
     width: 0%;
   }
