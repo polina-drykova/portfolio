@@ -40,6 +40,8 @@ gem 'webpacker', '~> 4.x'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'cloudinary', '~> 1.9.1'
 gem 'mail_form'
+gem 'rack-rewrite'
+
 
 
 group :development, :test do
@@ -63,6 +65,8 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
 end
+gem 'heroku-deflater', :group => :production
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
