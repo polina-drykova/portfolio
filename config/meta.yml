@@ -1,0 +1,5 @@
+meta_product_name: "Polina Drykova"
+meta_title: "Polina Drykova - Full Stack Rails developer and LeWagon alumnus."
+meta_description: "Can design and implement custom websites for your business or personal portfolio."
+meta_image: "icon_green.png" # should exist in `app/assets/images/`
+twitter_account: "@PolinaDrykova"
