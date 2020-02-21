@@ -169,15 +169,6 @@ a.slide_btn {
   opacity: 1;
 }
 
-@media only screen and (max-width: 767px) {
-  .previous_btn {
-    left: 50px;
-  }
-  .next_btn {
-    right: 50px;
-  }
-}
-
 //Buttons
 .btns {
   width: 75%;
@@ -225,6 +216,15 @@ a.slide_btn {
     }
   }
 }
+@media only screen and (max-width: 767px) {
+  .previous_btn {
+    left: 50px;
+  }
+  .next_btn {
+    right: 50px;
+  }
+}
+
 
 // Smallest device
 @media (max-width: 374px) {
