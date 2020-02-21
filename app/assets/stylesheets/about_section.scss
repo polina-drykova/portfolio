@@ -109,20 +109,13 @@ h1 {
   animation-fill-mode: both;
 }
 
-#progress-ruby {
-  left: 0;
-  -webkit-animation-name: progress-ruby;
-  animation-name: progress-ruby;
-  -webkit-animation-delay: .7s;
-  animation-delay: .7s;
-}
 
 #progress-htmlcss {
   left: 0;
   -webkit-animation-name: progress-htmlcss;
   animation-name: progress-htmlcss;
   -webkit-animation-delay: 1.4s;
-  animation-delay: 1.4s;
+  animation-delay: .8s;
 }
 
 #progress-js {
@@ -130,32 +123,39 @@ h1 {
   -webkit-animation-name: progress-js;
   animation-name: progress-js;
   -webkit-animation-delay: 2.1s;
-  animation-delay: 2.1s;
+  animation-delay: 1.6s;
 }
 
-#progress-github {
+#progress-react {
   left: 0;
-  -webkit-animation-name: progress-github;
-  animation-name: progress-github;
+  -webkit-animation-name: progress-react;
+  animation-name: progress-react;
   -webkit-animation-delay: 2.8s;
-  animation-delay: 2.8s;
+  animation-delay: 2.4s;
 }
 
-#progress-csharp {
+#progress-ruby {
   left: 0;
-  -webkit-animation-name: progress-csharp;
-  animation-name: progress-csharp;
-  -webkit-animation-delay: 1.4s;
-  animation-delay: 1.4s;
+  -webkit-animation-name: progress-ruby;
+  animation-name: progress-ruby;
+  -webkit-animation-delay: .7s;
+  animation-delay: 3.2s;
 }
+// #progress-csharp {
+//   left: 0;
+//   -webkit-animation-name: progress-csharp;
+//   animation-name: progress-csharp;
+//   -webkit-animation-delay: 1.4s;
+//   animation-delay: 1.4s;
+// }
 
-#progress-sql {
-  left: 0;
-  -webkit-animation-name: progress-sql;
-  animation-name: progress-sql;
-  -webkit-animation-delay: 2.1s;
-  animation-delay: 2.1s;
-}
+// #progress-sql {
+//   left: 0;
+//   -webkit-animation-name: progress-sql;
+//   animation-name: progress-sql;
+//   -webkit-animation-delay: 2.1s;
+//   animation-delay: 2.1s;
+// }
 
 .progressblue {
   background-color: #70C1B3;
@@ -175,7 +175,7 @@ h1 {
     width: 0%;
   }
   100% {
-    width: 85%;
+    width: 100%;
   }
 }
 
@@ -184,16 +184,16 @@ h1 {
     width: 0%;
   }
   100% {
-    width: 55%;
+    width: 70%;
   }
 }
 
-@-webkit-keyframes progress-github {
+@-webkit-keyframes progress-react {
   0% {
     width: 0%;
   }
   100% {
-    width: 70%;
+    width: 80%;
   }
 }
 
@@ -211,7 +211,7 @@ h1 {
     width: 0%;
   }
   100% {
-    width: 85%;
+    width: 100%;
   }
 }
 
@@ -220,16 +220,16 @@ h1 {
     width: 0%;
   }
   100% {
-    width: 55%;
+    width: 70%;
   }
 }
 
-@-moz-keyframes progress-github {
+@-moz-keyframes progress-react {
   0% {
     width: 0%;
   }
   100% {
-    width: 70%;
+    width: 80%;
   }
 }
 
@@ -247,7 +247,7 @@ h1 {
     width: 0%;
   }
   100% {
-    width: 85%;
+    width: 100%;
   }
 }
 
@@ -256,16 +256,16 @@ h1 {
     width: 0%;
   }
   100% {
-    width: 55%;
+    width: 70%;
   }
 }
 
-@keyframes progress-github {
+@keyframes progress-react {
   0% {
     width: 0%;
   }
   100% {
-    width: 70%;
+    width: 80%;
   }
 }
 
