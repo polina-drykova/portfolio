@@ -26,6 +26,9 @@
   background: rgba(149, 163, 179, 0.8);
   font-family: "Lato", "Helvetica", "sans-serif";
 }
+.navbar p {
+  display: none;
+}
 
 .navbar ul {
   display: flex;
@@ -90,6 +93,7 @@ section h1 {
   .navbar ul {
     width: 75%;
   }
+
 }
 
 // extra-larger device
@@ -102,8 +106,11 @@ section h1 {
 
   }
   .navbar ul {
-    width: 25%;
-    margin-right: 2%;
+    width: 230px;
+    margin-right: 25px;
+  }
+  .navbar p {
+    display: inline;
   }
 }
 
