@@ -216,6 +216,9 @@ a.slide_btn {
     }
   }
 }
+.app_link:hover {
+  text-decoration: underline;
+}
 @media only screen and (max-width: 767px) {
   .previous_btn {
     left: 50px;
